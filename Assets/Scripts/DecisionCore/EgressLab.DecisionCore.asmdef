@@ -1,0 +1,14 @@
+{
+    "name": "EgressLab.DecisionCore",
+    "rootNamespace": "EgressLab.Decision",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

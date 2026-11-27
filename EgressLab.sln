@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgressLab.DecisionCore", "dotnet\EgressLab.DecisionCore.csproj", "{2F327558-2547-48B9-BF91-7120DC86BB15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet", "dotnet", "{B8936580-0E76-414F-9F26-BDDFF751E0E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgressLab.DecisionCore.Tests", "dotnet\tests\EgressLab.DecisionCore.Tests.csproj", "{CBA7A0CF-E520-42A4-A55E-B0769AA8C3CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgressLab.Headless", "dotnet\headless\EgressLab.Headless.csproj", "{9C869013-2ADA-4F82-8A9B-2A02BD0CC261}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F327558-2547-48B9-BF91-7120DC86BB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F327558-2547-48B9-BF91-7120DC86BB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F327558-2547-48B9-BF91-7120DC86BB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F327558-2547-48B9-BF91-7120DC86BB15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA7A0CF-E520-42A4-A55E-B0769AA8C3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA7A0CF-E520-42A4-A55E-B0769AA8C3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA7A0CF-E520-42A4-A55E-B0769AA8C3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA7A0CF-E520-42A4-A55E-B0769AA8C3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C869013-2ADA-4F82-8A9B-2A02BD0CC261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C869013-2ADA-4F82-8A9B-2A02BD0CC261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C869013-2ADA-4F82-8A9B-2A02BD0CC261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C869013-2ADA-4F82-8A9B-2A02BD0CC261}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBA7A0CF-E520-42A4-A55E-B0769AA8C3CF} = {B8936580-0E76-414F-9F26-BDDFF751E0E1}
+		{9C869013-2ADA-4F82-8A9B-2A02BD0CC261} = {B8936580-0E76-414F-9F26-BDDFF751E0E1}
+	EndGlobalSection
+EndGlobal
